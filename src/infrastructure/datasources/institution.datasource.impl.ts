@@ -18,9 +18,8 @@ export class InstitutionDatasourceImpl implements InstitutionDatasource {
                     name:name,
                     abbreviation:abbreviation,
                     uuid:uuidv4()
-                },raw:true
+                }
             })
-            console.log(institution)
             return new InstitutionEntity(
                 institution.id,
                 institution.name,

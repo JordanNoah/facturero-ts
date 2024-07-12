@@ -1,0 +1,130 @@
+{
+  "id": "comprobante",
+  "version": "1.0.0",
+  "taxInfo": {
+    "environment": "1",
+    "emissionType": "1",
+    "businessName": "Distribuidora de Suministros Nacional S.A.",
+    "tradeName": "Empresa Importadora y Exportadora de Piezas",
+    "taxId": "1792146739001",
+    "accessKey": "2110201101179214673900110020010000000011234567813",
+    "documentCode": "01",
+    "branch": "002",
+    "issuePoint": "001",
+    "sequential": "000000001",
+    "headquartersAddress": "Enrique Guerrero Portilla OE1-34 AV. Galo Plaza Lasso"
+  },
+  "invoiceInfo": {
+    "issueDate": "21/10/2012",
+    "establishmentAddress": "Sebastián Moreno S/N Francisco García",
+    "specialContributor": "5368",
+    "accountingRequired": "SI",
+    "buyerIdType": "04",
+    "shipmentGuide": "001-001-000000001",
+    "buyerName": "PRUEBAS SERVICIO DE RENTAS INTERNAS",
+    "buyerTaxId": "1713328506001",
+    "buyerAddress": "salinas y santiago",
+    "totalWithoutTaxes": 295000.00,
+    "totalDiscount": 5005.00,
+    "totalWithTaxes": {
+      "taxTotal": [
+        {
+          "code": "3",
+          "percentageCode": "3072",
+          "taxableBase": 295000.00,
+          "value": 14750.00
+        },
+        {
+          "code": "2",
+          "percentageCode": "2",
+          "additionalDiscount": 5.00,
+          "taxableBase": 309750.00,
+          "value": 37169.40
+        },
+        {
+          "code": "5",
+          "percentageCode": "5001",
+          "taxableBase": 12000.00,
+          "value": 240.00
+        }
+      ]
+    },
+    "tip": 0.00,
+    "totalAmount": 347159.40,
+    "currency": "DOLAR",
+    "payments": {
+      "payment": {
+        "paymentMethod": "01",
+        "total": 347159.40,
+        "term": 30,
+        "timeUnit": "dias"
+      }
+    },
+    "vatWithheld": 10620.00,
+    "incomeTaxWithheld": 2950.00
+  },
+  "details": {
+    "detail": {
+      "mainCode": "125BJC-01",
+      "auxiliaryCode": "1234D56789-A",
+      "description": "CAMIONETA 4X4 DIESEL 3.7",
+      "quantity": 10.00,
+      "unitPrice": 300000.00,
+      "discount": 5000.00,
+      "priceWithoutTax": 295000.00,
+      "additionalDetails": {
+        "additionalDetail": [
+          {
+            "name": "Marca Chevrolet",
+            "value": "Chevrolet"
+          },
+          {
+            "name": "Modelo",
+            "value": "2012"
+          },
+          {
+            "name": "Chassis",
+            "value": "8LDETA03V20003289"
+          }
+        ]
+      },
+      "taxes": {
+        "tax": [
+          {
+            "code": "3",
+            "percentageCode": "3072",
+            "rate": 5,
+            "taxableBase": 295000.00,
+            "value": 14750.00
+          },
+          {
+            "code": "2",
+            "percentageCode": "2",
+            "rate": 12,
+            "taxableBase": 309750.00,
+            "value": 37170.00
+          },
+          {
+            "code": "5",
+            "percentageCode": "5001",
+            "rate": 0.02,
+            "taxableBase": 12000.00,
+            "value": 240.00
+          }
+        ]
+      }
+    }
+  },
+  "additionalInfo": {
+    "additionalField": [
+      {
+        "name": "Codigo Impuesto ISD",
+        "value": "4580"
+      },
+      {
+        "name": "Impuesto ISD",
+        "value": "15.42x"
+      }
+    ]
+  }
+}
